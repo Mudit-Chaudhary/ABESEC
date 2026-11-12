@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Register - Validation</title>
+		<style>
+			input { margin-bottom: 14px; display: block; }
+		</style>
+	</head>
+	<body>
+	    <form method="post" action="#">
+			<input type="text" name="fullname" placeholder="Full name" required maxlength="50">
+			<input type="email" name="email" placeholder="you@college.edu" required>
+			<input type="tel" name="mobile" placeholder="10-digit mobile" pattern="[0-9]{10}" title="Enter exactly 10 digits" required>
+			<input type="password" name="password" placeholder="Min 6 characters" minlength="6" required>
+			<input type="number" name="age" placeholder="Age (17-30)" min="17" max="30" required>
+			<button type="submit">Register</button>
+		</form>
+	</body>
+</html>
+
+<!-- Name : Mudit Chaudhary -->
+<!-- Admission Number : 2026B15310247 -->
